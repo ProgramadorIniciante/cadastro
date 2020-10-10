@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'secular_oneregular';
+    src: url('secular/') format('woff2'),
+         url('secular/secularone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    margin:0;
+    padding: 0;
+}
+
+form{
+    background-color: #00FF7F;
+    width: 50%;
+    margin:0 auto;
+    padding: 16px;
+    border-radius: 5px;
+}
+p{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding: 5px;
+    text-align:center;
+    font-size:30pt;
+    font-family: "secular_oneregular";
+    text-shadow:1px 1px 2px black;
+}
+h4{
+    color:#FFF;
+    text-shadow: 1px 1px 2px black;
+    background-color: #98FB98;
+    padding: 10px;
+    text-align:center;
+}
+.dados{
+display:flex;
+flex-direction: column;
+}
+.escola{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+.input{
+    padding: 10px;
+    border:none;
+    border-radius:5px;
+    margin-top:5px;
+    text-align:center;
+}
+span{
+    background-color: #98FB98;
+    border-radius:5px;
+    padding:10px;
+    margin-left:5px;
+    
+}
+
+#total{
+    display: flex;
+    flex-direction: column;
+}
+
+#btn{
+    border:none;
+    border-radius:5px;
+    padding: 10px;
+    margin-top:5px;
+    background-color:#00FA9A;
+    box-shadow:1px 1px 2px black;
+    color:#FFF;
+    font-size:20pt;
+    text-shadow: 1px 1px 2px black;  
+}
+input[type="file"]{
+    display: none;
+}
+.label{
+  font-family: 'Times New Roman', Times, serif;
+  color: #FFF;
+  cursor:pointer;
+  padding: 10px;
+  border-radius : 5px;
+  text-shadow: 1px 1px 2px black;
+  
+}
+
+#fotos{
+    margin-top:10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}

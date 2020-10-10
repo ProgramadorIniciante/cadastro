@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div id = "total">
+            <p> Cadastro </p>
+        <h4>Dados pessoais</h4>
+        <label for="dados" class="dados"> 
+
+            <input class="input" type="text" placeholder="digite seu nome completo">
+            <input class="input" type="text" placeholder = "digite seu CPF...">
+            <input class="input" type="text" placeholder="Endereço EX : rua caibam 774 , bairro corleone">
+            <h4>Escolaridade</h4>
+            <label class="escola" for = "estudo">
+                <span><input type="radio" name = "estudo">ensino médio </span>
+                <span><input type="radio" name = "estudo">curso técnico</span>
+                <span><input type="radio" name = "estudo">faculdade</span>
+            </label>
+
+            <label class = "label" for = "btn2"> adicionar uma foto </label>
+                <input id = "btn2" type="file" class="btn" accept="jpg">
+                <div id = "galeria"></div>
+            
+        </label>
+        <button id = "btn">enviar dados</button>
+        </div>
+        
+    </form>
+
+</body>
+<script src="index.js"></script>
+</html>
